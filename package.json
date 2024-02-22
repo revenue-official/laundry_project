@@ -25,6 +25,7 @@
         "vite": "^5.0.0"
     },
     "dependencies": {
-        "shadcn-ui": "^0.8.0"
+        "shadcn-ui": "^0.8.0",
+        "ziggy-js": "^2.0.3"
     }
 }
