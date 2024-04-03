@@ -10,4 +10,9 @@ export default defineConfig({
         }),
         react(),
     ],
+    build: {
+        outDir: "dist",
+        chunkSizeWarningLimit: 500,
+        minify: true,
+    },
 });

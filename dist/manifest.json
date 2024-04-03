@@ -1,0 +1,38 @@
+{
+  "_DefaultLayout-ldb404T6.js": {
+    "file": "assets/DefaultLayout-ldb404T6.js",
+    "imports": [
+      "resources/js/app.tsx"
+    ]
+  },
+  "resources/js/Pages/Chat.tsx": {
+    "file": "assets/Chat-CXnqUcUi.js",
+    "src": "resources/js/Pages/Chat.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_DefaultLayout-ldb404T6.js"
+    ]
+  },
+  "resources/js/Pages/Home.tsx": {
+    "file": "assets/Home-DhS8nSVg.js",
+    "src": "resources/js/Pages/Home.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.tsx",
+      "_DefaultLayout-ldb404T6.js"
+    ]
+  },
+  "resources/js/app.tsx": {
+    "file": "assets/app-C_YOYnYH.js",
+    "src": "resources/js/app.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Chat.tsx",
+      "resources/js/Pages/Home.tsx"
+    ],
+    "css": [
+      "assets/app-CdcRqx7a.css"
+    ]
+  }
+}
